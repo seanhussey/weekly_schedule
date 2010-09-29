@@ -1,9 +1,8 @@
-Feature: something something
-  In order to something something
-  A user something something
-  something something something
+Feature: Generate a weekly caendar
+  In order to display a weekly calendar with events
+  A user should be able to generate one from given data
 
-  Scenario: something something
-    Given inspiration
-    When I create a sweet new gem
-    Then everyone should see how awesome I am
+  Scenario: Display a 5-day weekly schedule
+    Given a week with 5 days
+    When I build the schedule
+    Then I should see one column for each day
