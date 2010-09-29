@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "weekly_schedule_builder"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Build a calendar view of a weekly schedule}
+    gem.description = %Q{Given a configurable number of days and a set of events for those days, weekly_schedule_builder will build a calendar representation of that schedule.}
     gem.email = "sean@seanhussey.com"
     gem.homepage = "http://github.com/seanhussey/weekly_schedule_builder"
     gem.authors = ["Sean Hussey"]

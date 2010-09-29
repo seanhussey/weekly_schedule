@@ -1,6 +1,7 @@
 = weekly_schedule_builder
 
-Description goes here.
+Given a configurable number of days and a set of events for those days, 
+weekly_schedule_builder will build a calendar representation of that schedule.
 
 == Note on Patches/Pull Requests
  
